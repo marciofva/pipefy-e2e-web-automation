@@ -1,0 +1,27 @@
+{
+  "name": "pipefy-e2e-web-automation",
+  "version": "1.0.0",
+  "description": "E2E Automation Project for Web Platform ",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "$(npm bin)/cypress open",
+    "cy:run:chrome": "$(npm bin)/cypress run --browser chrome",
+    "cy:run:firefox": "$(npm bin)/cypress run --browser firefox",
+    "cy:test": "cypress run",
+    "cy:headless": "cypress run --headless --browser chrome"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "e2e"
+  ],
+  "author": "Marcio Almeida",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.4.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
