@@ -15,7 +15,7 @@ describe('Filling the interview form', () => {
 
         const interview_data = {
             your_name: faker.name.findName(),
-            about_you: 'Because my skills and qualification match the job requirements',
+            about_you: 'I am Marcio and work as a QA Engineer',
             check_option: 'B',
             add_user: 'Luiz Servando Rodrigues Junior',
             selection: 'B',
